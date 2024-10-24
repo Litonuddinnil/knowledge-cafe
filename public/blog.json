@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "title": "The Enchanted Algorithms",
+      "cover": "https://picsum.photos/200/300?random=1",
+      "author_img": "https://picsum.photos/100/100?random=11",
+      "reading_time": 8,
+      "author": "Alice Green",
+      "posted_date": "2024-10-20",
+      "hashtags": ["#algorithms", "#coding", "#programming"]
+    },
+    {
+      "id": 2,
+      "title": "Journey through Data Structures",
+      "cover": "https://picsum.photos/200/300?random=2",
+      "author_img": "https://picsum.photos/100/100?random=12",
+      "reading_time": 10,
+      "author": "John Black",
+      "posted_date": "2024-10-18",
+      "hashtags": ["#dataStructures", "#analysis", "#softwareDevelopment"]
+    },
+    {
+      "id": 3,
+      "title": "Mystery of the Lost Code",
+      "cover": "https://picsum.photos/200/300?random=3",
+      "author_img": "https://picsum.photos/100/100?random=13",
+      "reading_time": 12,
+      "author": "Emma White",
+      "posted_date": "2024-10-15",
+      "hashtags": ["#coding", "#debugging", "#mystery"]
+    },
+    {
+      "id": 4,
+      "title": "Ocean of Open Source",
+      "cover": "https://picsum.photos/200/300?random=4",
+      "author_img": "https://picsum.photos/100/100?random=14",
+      "reading_time": 9,
+      "author": "David Blue",
+      "posted_date": "2024-10-19",
+      "hashtags": ["#openSource", "#collaboration", "#community"]
+    },
+    {
+      "id": 5,
+      "title": "Beneath the Surface of Networking",
+      "cover": "https://picsum.photos/200/300?random=5",
+      "author_img": "https://picsum.photos/100/100?random=15",
+      "reading_time": 7,
+      "author": "Sophia Brown",
+      "posted_date": "2024-10-17",
+      "hashtags": ["#networking", "#protocols", "#cybersecurity"]
+    }
+  ]
+  
