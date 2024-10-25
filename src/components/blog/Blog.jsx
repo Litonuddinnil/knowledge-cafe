@@ -1,7 +1,7 @@
 import { CiBookmarkPlus } from "react-icons/ci";
 import PropTypes from 'prop-types';
 const Blog = ({blog,handlerAddToBookMarks,handerAddToReadingTime}) => {
-    const {title,cover,author_img,author,posted_date,reading_time,hashtags} = blog;
+    const {id,title,cover,author_img,author,posted_date,reading_time,hashtags} = blog;
    
     return (
         <div >
@@ -31,7 +31,7 @@ const Blog = ({blog,handlerAddToBookMarks,handerAddToReadingTime}) => {
                     hashtags.map((hash,idx)=> <span key={idx}> <a href="">{hash}</a></span>)
                 }
             </p> 
-            <button className="text-purple-500 underline mb-6" onClick={() =>handerAddToReadingTime(reading_time)} href="">Marks As Read</button>
+            <button className="text-purple-500 underline mb-6" onClick={() =>handerAddToReadingTime(reading_time,id)} href="">Marks As Read</button>
         </div>
     );
 };

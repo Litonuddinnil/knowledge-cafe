@@ -10,7 +10,7 @@ import BookMark from '../Bookmark/BookMark'
       
       <h1 className="text-2xl ml-2 ">Bookmarks:{bookmarks.length}</h1>
       {
-          bookmarks.map(bookmark => <BookMark key={bookmark.id} bookmark={bookmark}></BookMark>)
+          bookmarks.map((bookmark,idx)=> <BookMark key={idx} bookmark={bookmark}></BookMark>)
       }
        </div>
     </div>

@@ -5,6 +5,7 @@ import Blogs from './components/blogs/Blogs'
  
 import BookMarks from './components/BooksMark/BookMarks'
 import Header from './components/header/header'
+import BookMark from './components/Bookmark/BookMark'
 
 function App() {
  const [bookmarks,setbookmarks] = useState([]);
@@ -13,10 +14,13 @@ function App() {
   const newBooksMark = [...bookmarks,blog]
    setbookmarks(newBooksMark)
  }
- const handerAddToReadingTime =(time)=>{
+ const handerAddToReadingTime =(time,id)=>{
    const newReadTime = (readingTime+time);
    setReadingTime(newReadTime);
-  console.log('added',time)
+  // console.log('added',time)
+  // console.log('remove aid',id);
+  const remainingBooksMarks = bookmarks.filter(bookmark => bookmark.id !==id);
+  setbookmarks(remainingBooksMarks)
  }
   return (
     <>
